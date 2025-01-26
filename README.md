@@ -42,30 +42,6 @@ brew install ffmpeg
 
 Download the FFmpeg executable and add it to your system's PATH.
 
-## Usage
-Here's a quick example of how to use the custom node in your ComfyUI workflow:
-
-python
-from pydub import AudioSegment
-```
-class FlacToWavNode:
-    def __init__(self, input_path, output_path):
-        self.input_path = input_path
-        self.output_path = output_path
-
-    def convert(self):
-        audio = AudioSegment.from_file(self.input_path, format="flac")
-        audio.export(self.output_path, format="wav")
-```
-
-# Example Usage
-
-```
-converter = FlacToWavNode("example.flac", "output.wav")
-converter.convert()
-print("Conversion complete: example.flac -> output.wav")
-```
-
 # Contributing
 Contributions are welcome! Please fork this repository and submit a pull request to add features, fix bugs, or improve documentation. For major changes, please open an issue first to discuss what you would like to change.
 
