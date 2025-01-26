@@ -32,7 +32,7 @@ pip install -r requirements.txt
 Contributions are welcome! Please fork this repository and submit a pull request to add features, fix bugs, or improve documentation. For major changes, please open an issue first to discuss what you would like to change.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the APACHE License. See the LICENSE file for details.
 
 Contact
 Feel free to reach out for any questions or suggestions:
