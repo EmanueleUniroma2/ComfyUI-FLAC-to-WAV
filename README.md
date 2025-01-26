@@ -28,19 +28,6 @@ cd comfyui-flac-to-wav
 sh
 pip install -r requirements.txt
 
-## Ubuntu/Debian:
-
-sh
-sudo apt-get install ffmpeg
-macOS (using Homebrew):
-
-sh
-brew install ffmpeg
-
-## Windows:
-
-Download the FFmpeg executable and add it to your system's PATH.
-
 # Contributing
 Contributions are welcome! Please fork this repository and submit a pull request to add features, fix bugs, or improve documentation. For major changes, please open an issue first to discuss what you would like to change.
 
