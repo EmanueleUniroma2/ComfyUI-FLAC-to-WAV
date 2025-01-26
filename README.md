@@ -10,25 +10,25 @@ Features
 - Lightweight and Fast: Built with performance in mind to handle even large audio files efficiently.
 - Open Source: Licensed under the MIT License for open collaboration and contribution.
 
-Requirements
+## Requirements
 Python 3.6+
 pydub library
 ffmpeg or libav library
 
-Installation
+## Installation
 Clone the Repository:
 
 sh
 git clone https://github.com/yourusername/comfyui-flac-to-wav.git
 cd comfyui-flac-to-wav
 
-Install Dependencies:
+## Install Dependencies:
 
 sh
 pip install pydub
 Ensure ffmpeg or libav is Installed:
 
-Ubuntu/Debian:
+## Ubuntu/Debian:
 
 sh
 sudo apt-get install ffmpeg
@@ -36,11 +36,12 @@ macOS (using Homebrew):
 
 sh
 brew install ffmpeg
-Windows:
+
+## Windows:
 
 Download the FFmpeg executable and add it to your system's PATH.
 
-Usage
+## Usage
 Here's a quick example of how to use the custom node in your ComfyUI workflow:
 
 python
