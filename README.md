@@ -26,8 +26,7 @@ cd comfyui-flac-to-wav
 ## Install Dependencies:
 
 sh
-pip install pydub
-Ensure ffmpeg or libav is Installed:
+pip install -r requirements.txt
 
 ## Ubuntu/Debian:
 
