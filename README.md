@@ -14,7 +14,7 @@ Features
 
 - Python 3.6+
 - pydub library
-- torch
+- torch library
 
 ## Installation
 Clone the Repository:
