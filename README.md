@@ -11,9 +11,10 @@ Features
 - Open Source: Licensed under the MIT License for open collaboration and contribution.
 
 ## Requirements
-Python 3.6+
-pydub library
-ffmpeg or libav library
+
+- Python 3.6+
+- pydub library
+- torch
 
 ## Installation
 Clone the Repository:
