@@ -1,4 +1,4 @@
-from .nodes import AudioToWavConverter
+from nodes import AudioToWavConverter
 
  # Node class mappings
 NODE_CLASS_MAPPINGS = {
