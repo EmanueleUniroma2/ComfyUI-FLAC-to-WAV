@@ -20,7 +20,7 @@ Features
 Clone the Repository:
 
 sh
-git clone https://github.com/yourusername/comfyui-flac-to-wav.git
+git clone [https://github.com/yourusername/comfyui-flac-to-wav.git](https://github.com/EmanueleUniroma2/ComfyUI-FLAC-to-WAV/blob/main/README.md)
 cd comfyui-flac-to-wav
 
 ## Install Dependencies:
