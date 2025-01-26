@@ -45,7 +45,7 @@ Here's a quick example of how to use the custom node in your ComfyUI workflow:
 
 python
 from pydub import AudioSegment
-```
+`
 class FlacToWavNode:
     def __init__(self, input_path, output_path):
         self.input_path = input_path
@@ -57,7 +57,7 @@ class FlacToWavNode:
 
 # Example Usage
 
-```converter = FlacToWavNode("example.flac", "output.wav")
+`converter = FlacToWavNode("example.flac", "output.wav")
 converter.convert()
 print("Conversion complete: example.flac -> output.wav")`
 
