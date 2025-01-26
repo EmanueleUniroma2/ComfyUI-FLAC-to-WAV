@@ -61,11 +61,3 @@ class AudioToWavConverter:
 
         return (output_file,)
 
-# Node class mappings
-NODE_CLASS_MAPPINGS = {
-    "AudioToWavConverter": AudioToWavConverter
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "AudioToWavConverter": "Audio to WAV Converter"
-}
