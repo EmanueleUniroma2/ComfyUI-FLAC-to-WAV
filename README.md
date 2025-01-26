@@ -53,8 +53,7 @@ class FlacToWavNode:
 
     def convert(self):
         audio = AudioSegment.from_file(self.input_path, format="flac")
-        audio.export(self.output_path, format="wav")
-```
+        audio.export(self.output_path, format="wav")`
 
 # Example Usage
 
