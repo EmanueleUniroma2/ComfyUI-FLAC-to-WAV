@@ -3,13 +3,6 @@ from pydub import AudioSegment
 import os
 import torch
 
-class AnyType(str):
-    """A special class that is always equal in not equal comparisons"""
-    def __ne__(self, __value: object) -> bool:
-        return False
-
-any_type = AnyType("*")
-
 class AudioToWavConverter:
     """
     A custom node to convert input audio files to WAV format
@@ -21,14 +14,10 @@ class AudioToWavConverter:
 
     Attributes
     ----------
-    RETURN_TYPES (`tuple`):
+    RETURN_TYPES (`AUDIO`):
         The type of each element in the output tuple.
-    RETURN_NAMES (`tuple`):
+    RETURN_NAMES (`wav_audio`):
         The name of each output in the output tuple.
-    FUNCTION (`str`):
-        The name of the entry-point method. 
-    CATEGORY (`str`):
-        The category the node should appear in the UI.
     """
 
     def __init__(self):
@@ -45,7 +34,7 @@ class AudioToWavConverter:
     RETURN_TYPES = ("AUDIO",)
     RETURN_NAMES = ("wav_audio",)
     FUNCTION = "convert_audio"
-    CATEGORY = "Audio Processing"
+    CATEGORY = "audio"
 
     def convert_audio(self, audio_input):
         # Extract the file name without extension
