@@ -60,7 +60,7 @@ class FlacToWavNode:
 
 ```converter = FlacToWavNode("example.flac", "output.wav")
 converter.convert()
-print("Conversion complete: example.flac -> output.wav")```
+print("Conversion complete: example.flac -> output.wav")`
 
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request to add features, fix bugs, or improve documentation. For major changes, please open an issue first to discuss what you would like to change.
